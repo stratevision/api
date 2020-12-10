@@ -12,7 +12,8 @@ use Dingo\Api\Event\RequestWasMatched;
 use Dingo\Api\Http\Request as HttpRequest;
 use Illuminate\Contracts\Container\Container;
 use Dingo\Api\Contract\Debug\ExceptionHandler;
-use Illuminate\Events\Dispatcher as EventDispatcher;
+// use Illuminate\Events\Dispatcher as EventDispatcher;
+use October\Rain\Events\Dispatcher as EventDispatcher;
 use Dingo\Api\Contract\Http\Request as RequestContract;
 use Illuminate\Contracts\Debug\ExceptionHandler as LaravelExceptionHandler;
 
